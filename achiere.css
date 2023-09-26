@@ -1,0 +1,666 @@
+body{
+    width:90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contener1 {
+
+
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+
+}
+.h1-tage{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+.subcontainer2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+a:visited {
+    color: rgb(109,109,109);
+    font-style: normal;
+
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+button {
+    background-color: rgb(245, 73, 73);
+
+    border: none;
+    color: white;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    background-color: rgb(223, 220, 220);
+    height: 25px;
+    align-items: center;
+    width: 100%;
+    padding:10px 0px;
+    justify-content: space-around;
+
+}
+.nav2{
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+    gap: 10px;
+
+    height: 20px;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: -10px;
+
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+.main{
+    width:90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 25px;
+
+}
+.main1{
+   
+    width: 40%; 
+    
+
+
+}
+.maincol{
+    background-image: url(https://static.toiimg.com/thumb/imgsize-63838,msid-100569387,width-600,resizemode-4/100569387.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+
+}
+.main11{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    padding-top: 10px;
+    color: rgb(109,109,109);
+
+}
+.main111{
+        display: flex;
+        width: 50%;
+        gap: 10px;
+        
+       
+    }
+    .imgClass{
+        border-radius: 20px;
+        padding-top: 10px;
+        display: block;
+        justify-content: center;
+        
+        padding-left: 20px;
+
+      
+        
+    }
+    .main21{
+        color: rgb(109,109,109);
+    }
+.main112{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}    
+.main31{
+    height: 400px;
+    background-color: rgb(255,245,246);
+    color: rgb(109,109,109);
+    
+}
+.newnav{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    height: 25px;
+    align-items: center;
+    width: 100%;
+    padding:10px 0px;
+    justify-content: space-around;
+    color: rgb(102,102,102);
+}
+.newnav li{
+   
+    background-color: rgb(246,246,246);
+    height: 30px;
+   border-radius: 50px;
+   width: 170px;
+    text-align: center;
+    display: flex;
+   align-items: center;
+   font-size: 13px;
+   justify-content: space-around;
+  
+
+
+}
+img{
+    border-radius: 15px;
+}
+.cricket{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+}
+.icon i{
+  
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.city{
+   background-image: url("https://static.toiimg.com/thumb/msid-100690162,imgsize-31562,width-400,resizemode-4/100690162.jpg");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+        background-position: center;
+
+  
+    
+}
+.city h3{
+   display: flex;
+   justify-items: center;
+   position:static;
+   padding-top: 100px;
+ 
+   color: white;
+
+
+}
+.lifestyle{ 
+    background-image: url(https://static.toiimg.com/thumb/100839059.cms?width=680&height=512&imgsize=1009522);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+    
+
+}
+.lifestyle h3{
+ margin-left: 20px;
+ margin-bottom: 20px;
+ font-size: 25px;
+}
+.lifestyle2{ 
+    background-image: url(https://static.toiimg.com/thumb/msid-100820074,imgsize-66364,width-400,resizemode-4/100820074.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+    
+
+}
+.lifestyle2 h3{
+ margin-left: 20px;
+ margin-bottom: 20px;
+ font-size: 25px;
+}
+.lifestyle3{ 
+    background-image: url(https://static.toiimg.com/thumb/msid-100840387,imgsize-18174,width-400,resizemode-4/100840387.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+    
+
+}
+.lifestyle3 h3{
+ margin-left: 20px;
+ margin-bottom: 20px;
+ font-size: 25px;
+}
+
+.BEAUTY{
+    background-image: url(https://static.toiimg.com/thumb/msid-100801148,imgsize-77455,width-400,resizemode-4/100801148.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.BEAUTY h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+.PARENTING{
+    background-image: url(https://static.toiimg.com/thumb/msid-100841521,imgsize-1416258,width-400,resizemode-4/100841521.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.PARENTING h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+.FOOD{
+    background-image: url(https://media.istockphoto.com/id/521811679/photo/close-up-of-full-shopping-cart-in-grocery-store.jpg?s=1024x1024&w=is&k=20&c=MF-eoAADBQuXp1mEvI3a9UT0e2J0WZvYfD4HpKoTkno=);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.FOOD h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+.TRAVEL{
+    background-image: url(https://media.istockphoto.com/id/1031430214/photo/young-woman-kayaking-through-the-backwaters-of-monroe-island.jpg?s=612x612&w=0&k=20&c=kbv2s1kknMzJgk8Nd-W2VNIf0AFx48YtCqygtI3Ppos=);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.TRAVEL h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+.PAGEANTS{
+    background-image: url(https://static.toiimg.com/thumb/msid-100790680,width-1200,height-900,resizemode-4/100790680.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.PAGEANTS h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+.FEMINA{
+    background-image: url(https://media.istockphoto.com/id/1127357889/photo/indian-family-isolated-over-white-background.jpg?s=612x612&w=0&k=20&c=l405UrcoVpnNDsrwPD3L7sVxy__SMC3JL6j6wUuaTN8=);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.FEMINA h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+.virsual-main{
+    display: flex;
+    justify-content: space-between;
+}
+.virsual-nav{
+    display: flex;
+    justify-content: start;
+
+}
+.virsual-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.virsual{
+  
+}
+.virsual div{
+   
+    background-color: rgb(255,255,255);
+    height: 15%;
+    width: 20%;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 15px;
+    border-radius: 10px 0px;
+    text-align: left;
+   
+   
+  
+}
+.virsual div h3{
+    margin-left: 10px;
+    color: rgb(100,26,26);
+}
+.virsual div p{
+    margin-left: 10px;
+    color: rgb(173,165,185);
+}
+hr{
+    border-color: rgb(165,165,165);
+}
+.video{
+    background-color: black;
+    margin-top: 30px;
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+}
+.video-nav{
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+.video-nav ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+}
+.video-new{
+    display: flex;
+    margin-top: 10px;
+}
+.video-new1{
+    width: 40%;
+    padding-left: 30px;
+   margin-top: -50px;
+    border-radius: 10px;
+   
+}
+.video-new2{
+    width: 60%;
+    height: 200px;
+    color: antiquewhite;
+    padding-left: 20px;
+}
+.video-news3{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.amezon{
+    margin-top: 20px;
+}
+.amezon-header{
+    display: flex;
+    justify-content: space-between;
+}
+.amezon-header div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+
+}
+.amezon-header1{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.search{
+    width: 50%;
+    
+}
+.search input{
+    width: 100%;
+    height: 30px;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+}
+.product1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 50%;
+}
+.product-main{
+    height: 300px;
+    width: 50%;
+    border: 1px solid rgb(165, 165, 167);
+    border-radius: 10px;
+    
+}
+.product-main img{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 17px;
+ 
+}
+
+.product-main1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.product-main11{
+    padding-left: 20px;
+
+
+}
+.product-main11 p{
+    color: rgb(230, 29, 29);
+}
+.product-main12{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(181, 7, 7);
+    color: white;
+    text-align: center;
+    display: grid;
+  
+    align-items: center;
+}
+.product2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 50%;
+}
+.product2-main{
+    height: 300px;
+    width: 33%;
+    border: 1px solid rgb(165, 165, 167);
+    border-radius: 10px;
+    text-align: center;
+}   
+.product2-main img {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 17px;
+    width: 90%;
+    height: 100px;
+   
+
+}
+.product2-main-offer{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(181, 7, 7);
+    color: white;
+    text-align: center;
+    display: grid;
+    margin-top: -100px;
+    margin-left: 120px;
+    font-size: 13px;
+  
+    align-items: center;
+
+}
+.product2-footer{
+    width: 60%;
+    height: 30px;
+}
+.product2-footer img{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.product2-footer-rup{
+    display: flex;
+    font-size: small;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.product2-footer-rup p i{
+    text-decoration: line-through;
+    font-size: 10px;
+}
+.product2-main div span{
+    color: rgb(71, 186, 67);
+}
+.DESTINATION{
+    width: 100%;
+
+}
+.destination1{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+}
+.destination1 div{
+    width: 33%;
+    color: rgb(151, 146, 158);
+}
+.enter-nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.enter-nav h2 span{
+    margin-left: 30px;
+}
+.enter-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+.enter-artical-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.enter-artical-nav h3 span{
+    margin-left: 20px;
+}
+
+.enter-artical{
+    display: flex;
+justify-content: space-around;
+}
+.entertainment{
+    display: flex;
+    gap: 10px;
+   
+}
+.enetItem{
+    width: 33%;
+
+}
+.child_Item{
+    color: lightslategray;
+
+}
+.child_Item h3,b{
+    color: black;
+    position: relative;
+    top: 10px;
+}
+
